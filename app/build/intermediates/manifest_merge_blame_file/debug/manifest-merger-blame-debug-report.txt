@@ -1,0 +1,354 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.zugavalize.app"
+4    android:versionCode="3"
+5    android:versionName="1.1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="19"
+8-->/Users/blockmayictsolutionlimited/AndroidStudioProjects/Zugavalize/app/src/main/AndroidManifest.xml
+9        android:targetSdkVersion="31" />
+9-->/Users/blockmayictsolutionlimited/AndroidStudioProjects/Zugavalize/app/src/main/AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->/Users/blockmayictsolutionlimited/AndroidStudioProjects/Zugavalize/app/src/main/AndroidManifest.xml:6:5-67
+11-->/Users/blockmayictsolutionlimited/AndroidStudioProjects/Zugavalize/app/src/main/AndroidManifest.xml:6:22-64
+12    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+12-->/Users/blockmayictsolutionlimited/AndroidStudioProjects/Zugavalize/app/src/main/AndroidManifest.xml:7:5-81
+12-->/Users/blockmayictsolutionlimited/AndroidStudioProjects/Zugavalize/app/src/main/AndroidManifest.xml:7:22-78
+13    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+13-->/Users/blockmayictsolutionlimited/AndroidStudioProjects/Zugavalize/app/src/main/AndroidManifest.xml:8:5-79
+13-->/Users/blockmayictsolutionlimited/AndroidStudioProjects/Zugavalize/app/src/main/AndroidManifest.xml:8:22-76
+14    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+14-->/Users/blockmayictsolutionlimited/AndroidStudioProjects/Zugavalize/app/src/main/AndroidManifest.xml:9:5-81
+14-->/Users/blockmayictsolutionlimited/AndroidStudioProjects/Zugavalize/app/src/main/AndroidManifest.xml:9:22-78
+15    <uses-permission android:name="android.permission.VIBRATE" />
+15-->/Users/blockmayictsolutionlimited/AndroidStudioProjects/Zugavalize/app/src/main/AndroidManifest.xml:10:5-66
+15-->/Users/blockmayictsolutionlimited/AndroidStudioProjects/Zugavalize/app/src/main/AndroidManifest.xml:10:22-63
+16
+17    <queries>
+17-->[com.google.firebase:firebase-inappmessaging-display:20.1.2] /Users/blockmayictsolutionlimited/.gradle/caches/transforms-3/119c93936d821d5c5916dc1b79345cd1/transformed/jetified-firebase-inappmessaging-display-20.1.2/AndroidManifest.xml:14:5-20:15
+18        <intent>
+18-->[com.google.firebase:firebase-inappmessaging-display:20.1.2] /Users/blockmayictsolutionlimited/.gradle/caches/transforms-3/119c93936d821d5c5916dc1b79345cd1/transformed/jetified-firebase-inappmessaging-display-20.1.2/AndroidManifest.xml:15:9-19:18
+19            <action android:name="android.intent.action.VIEW" />
+19-->[com.google.firebase:firebase-inappmessaging-display:20.1.2] /Users/blockmayictsolutionlimited/.gradle/caches/transforms-3/119c93936d821d5c5916dc1b79345cd1/transformed/jetified-firebase-inappmessaging-display-20.1.2/AndroidManifest.xml:16:13-65
+19-->[com.google.firebase:firebase-inappmessaging-display:20.1.2] /Users/blockmayictsolutionlimited/.gradle/caches/transforms-3/119c93936d821d5c5916dc1b79345cd1/transformed/jetified-firebase-inappmessaging-display-20.1.2/AndroidManifest.xml:16:21-62
+20
+21            <data android:scheme="https" />
+21-->[com.google.firebase:firebase-inappmessaging-display:20.1.2] /Users/blockmayictsolutionlimited/.gradle/caches/transforms-3/119c93936d821d5c5916dc1b79345cd1/transformed/jetified-firebase-inappmessaging-display-20.1.2/AndroidManifest.xml:18:13-44
+21-->[com.google.firebase:firebase-inappmessaging-display:20.1.2] /Users/blockmayictsolutionlimited/.gradle/caches/transforms-3/119c93936d821d5c5916dc1b79345cd1/transformed/jetified-firebase-inappmessaging-display-20.1.2/AndroidManifest.xml:18:19-41
+22        </intent>
+23    </queries>
+24
+25    <uses-permission android:name="android.permission.WAKE_LOCK" /> <!-- Required by older versions of Google Play services to create IID tokens -->
+25-->[com.google.firebase:firebase-messaging:23.0.5] /Users/blockmayictsolutionlimited/.gradle/caches/transforms-3/f977bc2da3842ba281814c8c116f943d/transformed/jetified-firebase-messaging-23.0.5/AndroidManifest.xml:26:5-68
+25-->[com.google.firebase:firebase-messaging:23.0.5] /Users/blockmayictsolutionlimited/.gradle/caches/transforms-3/f977bc2da3842ba281814c8c116f943d/transformed/jetified-firebase-messaging-23.0.5/AndroidManifest.xml:26:22-65
+26    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+26-->[com.google.firebase:firebase-messaging:23.0.5] /Users/blockmayictsolutionlimited/.gradle/caches/transforms-3/f977bc2da3842ba281814c8c116f943d/transformed/jetified-firebase-messaging-23.0.5/AndroidManifest.xml:28:5-82
+26-->[com.google.firebase:firebase-messaging:23.0.5] /Users/blockmayictsolutionlimited/.gradle/caches/transforms-3/f977bc2da3842ba281814c8c116f943d/transformed/jetified-firebase-messaging-23.0.5/AndroidManifest.xml:28:22-79
+27    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" />
+27-->[com.google.android.gms:play-services-measurement:16.5.0] /Users/blockmayictsolutionlimited/.gradle/caches/transforms-3/82ae4574f8da7e0d74f4707bbbad3c29/transformed/jetified-play-services-measurement-16.5.0/AndroidManifest.xml:26:5-110
+27-->[com.google.android.gms:play-services-measurement:16.5.0] /Users/blockmayictsolutionlimited/.gradle/caches/transforms-3/82ae4574f8da7e0d74f4707bbbad3c29/transformed/jetified-play-services-measurement-16.5.0/AndroidManifest.xml:26:22-107
+28
+29    <application
+29-->/Users/blockmayictsolutionlimited/AndroidStudioProjects/Zugavalize/app/src/main/AndroidManifest.xml:12:5-60:19
+30        android:name="com.zugavalize.app.App"
+30-->/Users/blockmayictsolutionlimited/AndroidStudioProjects/Zugavalize/app/src/main/AndroidManifest.xml:13:9-46
+31        android:allowBackup="true"
+31-->/Users/blockmayictsolutionlimited/AndroidStudioProjects/Zugavalize/app/src/main/AndroidManifest.xml:14:9-35
+32        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+32-->[androidx.core:core:1.7.0] /Users/blockmayictsolutionlimited/.gradle/caches/transforms-3/5d4425827742aeb68d46249a4c94efcc/transformed/core-1.7.0/AndroidManifest.xml:24:18-86
+33        android:debuggable="true"
+34        android:icon="@drawable/icon"
+34-->/Users/blockmayictsolutionlimited/AndroidStudioProjects/Zugavalize/app/src/main/AndroidManifest.xml:15:9-38
+35        android:label="@string/app_name"
+35-->/Users/blockmayictsolutionlimited/AndroidStudioProjects/Zugavalize/app/src/main/AndroidManifest.xml:16:9-41
+36        android:testOnly="true"
+37        android:theme="@style/AppTheme"
+37-->/Users/blockmayictsolutionlimited/AndroidStudioProjects/Zugavalize/app/src/main/AndroidManifest.xml:17:9-40
+38        android:usesCleartextTraffic="true" >
+38-->/Users/blockmayictsolutionlimited/AndroidStudioProjects/Zugavalize/app/src/main/AndroidManifest.xml:18:9-44
+39        <activity
+39-->/Users/blockmayictsolutionlimited/AndroidStudioProjects/Zugavalize/app/src/main/AndroidManifest.xml:20:9-30:20
+40            android:name="com.zugavalize.app.test.SplashTestActivity"
+40-->/Users/blockmayictsolutionlimited/AndroidStudioProjects/Zugavalize/app/src/main/AndroidManifest.xml:21:13-52
+41            android:exported="true" >
+41-->/Users/blockmayictsolutionlimited/AndroidStudioProjects/Zugavalize/app/src/main/AndroidManifest.xml:22:13-36
+42
+43            <!-- <intent-filter> -->
+44            <!-- <action android:name="android.intent.action.MAIN" /> -->
+45
+46
+47            <!-- <category android:name="android.intent.category.LAUNCHER" /> -->
+48            <!-- </intent-filter> -->
+49
+50        </activity>
+51        <activity
+51-->/Users/blockmayictsolutionlimited/AndroidStudioProjects/Zugavalize/app/src/main/AndroidManifest.xml:31:9-42:20
+52            android:name="com.zugavalize.app.activity.Splash"
+52-->/Users/blockmayictsolutionlimited/AndroidStudioProjects/Zugavalize/app/src/main/AndroidManifest.xml:32:13-62
+53            android:exported="true"
+53-->/Users/blockmayictsolutionlimited/AndroidStudioProjects/Zugavalize/app/src/main/AndroidManifest.xml:33:13-36
+54            android:theme="@style/AppTheme" >
+54-->/Users/blockmayictsolutionlimited/AndroidStudioProjects/Zugavalize/app/src/main/AndroidManifest.xml:34:13-44
+55            <intent-filter>
+55-->/Users/blockmayictsolutionlimited/AndroidStudioProjects/Zugavalize/app/src/main/AndroidManifest.xml:36:13-40:29
+56                <action android:name="android.intent.action.MAIN" />
+56-->/Users/blockmayictsolutionlimited/AndroidStudioProjects/Zugavalize/app/src/main/AndroidManifest.xml:37:17-69
+56-->/Users/blockmayictsolutionlimited/AndroidStudioProjects/Zugavalize/app/src/main/AndroidManifest.xml:37:25-66
+57
+58                <category android:name="android.intent.category.LAUNCHER" />
+58-->/Users/blockmayictsolutionlimited/AndroidStudioProjects/Zugavalize/app/src/main/AndroidManifest.xml:39:17-77
+58-->/Users/blockmayictsolutionlimited/AndroidStudioProjects/Zugavalize/app/src/main/AndroidManifest.xml:39:27-74
+59            </intent-filter>
+60        </activity>
+61        <activity
+61-->/Users/blockmayictsolutionlimited/AndroidStudioProjects/Zugavalize/app/src/main/AndroidManifest.xml:45:9-50:67
+62            android:name="com.zugavalize.app.activity.MainActivity"
+62-->/Users/blockmayictsolutionlimited/AndroidStudioProjects/Zugavalize/app/src/main/AndroidManifest.xml:46:13-68
+63            android:configChanges="keyboardHidden|keyboard|orientation|screenSize"
+63-->/Users/blockmayictsolutionlimited/AndroidStudioProjects/Zugavalize/app/src/main/AndroidManifest.xml:47:13-83
+64            android:hardwareAccelerated="true"
+64-->/Users/blockmayictsolutionlimited/AndroidStudioProjects/Zugavalize/app/src/main/AndroidManifest.xml:48:13-47
+65            android:label="@string/app_name"
+65-->/Users/blockmayictsolutionlimited/AndroidStudioProjects/Zugavalize/app/src/main/AndroidManifest.xml:49:13-45
+66            android:windowSoftInputMode="adjustResize" />
+66-->/Users/blockmayictsolutionlimited/AndroidStudioProjects/Zugavalize/app/src/main/AndroidManifest.xml:50:13-55
+67
+68        <service
+68-->/Users/blockmayictsolutionlimited/AndroidStudioProjects/Zugavalize/app/src/main/AndroidManifest.xml:52:9-59:19
+69            android:name="com.zugavalize.app.MyFirebaseMessagingService"
+69-->/Users/blockmayictsolutionlimited/AndroidStudioProjects/Zugavalize/app/src/main/AndroidManifest.xml:53:13-73
+70            android:enabled="true"
+70-->/Users/blockmayictsolutionlimited/AndroidStudioProjects/Zugavalize/app/src/main/AndroidManifest.xml:54:13-35
+71            android:exported="true" >
+71-->/Users/blockmayictsolutionlimited/AndroidStudioProjects/Zugavalize/app/src/main/AndroidManifest.xml:55:13-36
+72            <intent-filter>
+72-->/Users/blockmayictsolutionlimited/AndroidStudioProjects/Zugavalize/app/src/main/AndroidManifest.xml:56:13-58:29
+73                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+73-->/Users/blockmayictsolutionlimited/AndroidStudioProjects/Zugavalize/app/src/main/AndroidManifest.xml:57:17-78
+73-->/Users/blockmayictsolutionlimited/AndroidStudioProjects/Zugavalize/app/src/main/AndroidManifest.xml:57:25-75
+74            </intent-filter>
+75        </service>
+76        <service
+76-->[com.google.firebase:firebase-inappmessaging-display:20.1.2] /Users/blockmayictsolutionlimited/.gradle/caches/transforms-3/119c93936d821d5c5916dc1b79345cd1/transformed/jetified-firebase-inappmessaging-display-20.1.2/AndroidManifest.xml:23:9-29:19
+77            android:name="com.google.firebase.components.ComponentDiscoveryService"
+77-->[com.google.firebase:firebase-inappmessaging-display:20.1.2] /Users/blockmayictsolutionlimited/.gradle/caches/transforms-3/119c93936d821d5c5916dc1b79345cd1/transformed/jetified-firebase-inappmessaging-display-20.1.2/AndroidManifest.xml:24:13-84
+78            android:directBootAware="true"
+78-->[com.google.firebase:firebase-common:20.1.1] /Users/blockmayictsolutionlimited/.gradle/caches/transforms-3/7319f1e5d58369b0663c8fd201c30e4f/transformed/jetified-firebase-common-20.1.1/AndroidManifest.xml:35:13-43
+79            android:exported="false" >
+79-->[com.google.firebase:firebase-inappmessaging-display:20.1.2] /Users/blockmayictsolutionlimited/.gradle/caches/transforms-3/119c93936d821d5c5916dc1b79345cd1/transformed/jetified-firebase-inappmessaging-display-20.1.2/AndroidManifest.xml:25:13-37
+80            <meta-data
+80-->[com.google.firebase:firebase-inappmessaging-display:20.1.2] /Users/blockmayictsolutionlimited/.gradle/caches/transforms-3/119c93936d821d5c5916dc1b79345cd1/transformed/jetified-firebase-inappmessaging-display-20.1.2/AndroidManifest.xml:26:13-28:85
+81                android:name="com.google.firebase.components:com.google.firebase.inappmessaging.display.FirebaseInAppMessagingDisplayRegistrar"
+81-->[com.google.firebase:firebase-inappmessaging-display:20.1.2] /Users/blockmayictsolutionlimited/.gradle/caches/transforms-3/119c93936d821d5c5916dc1b79345cd1/transformed/jetified-firebase-inappmessaging-display-20.1.2/AndroidManifest.xml:27:17-144
+82                android:value="com.google.firebase.components.ComponentRegistrar" />
+82-->[com.google.firebase:firebase-inappmessaging-display:20.1.2] /Users/blockmayictsolutionlimited/.gradle/caches/transforms-3/119c93936d821d5c5916dc1b79345cd1/transformed/jetified-firebase-inappmessaging-display-20.1.2/AndroidManifest.xml:28:17-82
+83            <meta-data
+83-->[com.google.firebase:firebase-messaging:23.0.5] /Users/blockmayictsolutionlimited/.gradle/caches/transforms-3/f977bc2da3842ba281814c8c116f943d/transformed/jetified-firebase-messaging-23.0.5/AndroidManifest.xml:55:13-57:85
+84                android:name="com.google.firebase.components:com.google.firebase.messaging.FirebaseMessagingRegistrar"
+84-->[com.google.firebase:firebase-messaging:23.0.5] /Users/blockmayictsolutionlimited/.gradle/caches/transforms-3/f977bc2da3842ba281814c8c116f943d/transformed/jetified-firebase-messaging-23.0.5/AndroidManifest.xml:56:17-119
+85                android:value="com.google.firebase.components.ComponentRegistrar" />
+85-->[com.google.firebase:firebase-messaging:23.0.5] /Users/blockmayictsolutionlimited/.gradle/caches/transforms-3/f977bc2da3842ba281814c8c116f943d/transformed/jetified-firebase-messaging-23.0.5/AndroidManifest.xml:57:17-82
+86            <meta-data
+86-->[com.google.android.gms:play-services-measurement-api:16.5.0] /Users/blockmayictsolutionlimited/.gradle/caches/transforms-3/ae3a8b087b3e7cf716b2446c2b4b261c/transformed/jetified-play-services-measurement-api-16.5.0/AndroidManifest.xml:30:13-32:85
+87                android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar"
+87-->[com.google.android.gms:play-services-measurement-api:16.5.0] /Users/blockmayictsolutionlimited/.gradle/caches/transforms-3/ae3a8b087b3e7cf716b2446c2b4b261c/transformed/jetified-play-services-measurement-api-16.5.0/AndroidManifest.xml:31:17-139
+88                android:value="com.google.firebase.components.ComponentRegistrar" />
+88-->[com.google.android.gms:play-services-measurement-api:16.5.0] /Users/blockmayictsolutionlimited/.gradle/caches/transforms-3/ae3a8b087b3e7cf716b2446c2b4b261c/transformed/jetified-play-services-measurement-api-16.5.0/AndroidManifest.xml:32:17-82
+89            <meta-data
+89-->[com.google.firebase:firebase-iid:21.1.0] /Users/blockmayictsolutionlimited/.gradle/caches/transforms-3/65f26ad00dbb9ae339cf22016036be39/transformed/jetified-firebase-iid-21.1.0/AndroidManifest.xml:32:13-34:85
+90                android:name="com.google.firebase.components:com.google.firebase.iid.Registrar"
+90-->[com.google.firebase:firebase-iid:21.1.0] /Users/blockmayictsolutionlimited/.gradle/caches/transforms-3/65f26ad00dbb9ae339cf22016036be39/transformed/jetified-firebase-iid-21.1.0/AndroidManifest.xml:33:17-96
+91                android:value="com.google.firebase.components.ComponentRegistrar" />
+91-->[com.google.firebase:firebase-iid:21.1.0] /Users/blockmayictsolutionlimited/.gradle/caches/transforms-3/65f26ad00dbb9ae339cf22016036be39/transformed/jetified-firebase-iid-21.1.0/AndroidManifest.xml:34:17-82
+92            <meta-data
+92-->[com.google.firebase:firebase-inappmessaging:20.1.2] /Users/blockmayictsolutionlimited/.gradle/caches/transforms-3/4af6c19c80ec847b83205e9e67354b91/transformed/jetified-firebase-inappmessaging-20.1.2/AndroidManifest.xml:17:13-19:85
+93                android:name="com.google.firebase.components:com.google.firebase.inappmessaging.FirebaseInAppMessagingRegistrar"
+93-->[com.google.firebase:firebase-inappmessaging:20.1.2] /Users/blockmayictsolutionlimited/.gradle/caches/transforms-3/4af6c19c80ec847b83205e9e67354b91/transformed/jetified-firebase-inappmessaging-20.1.2/AndroidManifest.xml:18:17-129
+94                android:value="com.google.firebase.components.ComponentRegistrar" />
+94-->[com.google.firebase:firebase-inappmessaging:20.1.2] /Users/blockmayictsolutionlimited/.gradle/caches/transforms-3/4af6c19c80ec847b83205e9e67354b91/transformed/jetified-firebase-inappmessaging-20.1.2/AndroidManifest.xml:19:17-82
+95            <meta-data
+95-->[com.google.firebase:firebase-installations:17.0.1] /Users/blockmayictsolutionlimited/.gradle/caches/transforms-3/bed500d837bae8fc9592c35ba9403247/transformed/jetified-firebase-installations-17.0.1/AndroidManifest.xml:18:13-20:85
+96                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar"
+96-->[com.google.firebase:firebase-installations:17.0.1] /Users/blockmayictsolutionlimited/.gradle/caches/transforms-3/bed500d837bae8fc9592c35ba9403247/transformed/jetified-firebase-installations-17.0.1/AndroidManifest.xml:19:17-127
+97                android:value="com.google.firebase.components.ComponentRegistrar" />
+97-->[com.google.firebase:firebase-installations:17.0.1] /Users/blockmayictsolutionlimited/.gradle/caches/transforms-3/bed500d837bae8fc9592c35ba9403247/transformed/jetified-firebase-installations-17.0.1/AndroidManifest.xml:20:17-82
+98            <meta-data
+98-->[com.google.firebase:firebase-datatransport:18.1.4] /Users/blockmayictsolutionlimited/.gradle/caches/transforms-3/0a426240087ea69b6057c2593ca6b25a/transformed/jetified-firebase-datatransport-18.1.4/AndroidManifest.xml:28:13-30:85
+99                android:name="com.google.firebase.components:com.google.firebase.datatransport.TransportRegistrar"
+99-->[com.google.firebase:firebase-datatransport:18.1.4] /Users/blockmayictsolutionlimited/.gradle/caches/transforms-3/0a426240087ea69b6057c2593ca6b25a/transformed/jetified-firebase-datatransport-18.1.4/AndroidManifest.xml:29:17-115
+100                android:value="com.google.firebase.components.ComponentRegistrar" />
+100-->[com.google.firebase:firebase-datatransport:18.1.4] /Users/blockmayictsolutionlimited/.gradle/caches/transforms-3/0a426240087ea69b6057c2593ca6b25a/transformed/jetified-firebase-datatransport-18.1.4/AndroidManifest.xml:30:17-82
+101            <meta-data
+101-->[com.google.firebase:firebase-abt:21.0.1] /Users/blockmayictsolutionlimited/.gradle/caches/transforms-3/c12430a93ad5689c522cc9375a5c5135/transformed/jetified-firebase-abt-21.0.1/AndroidManifest.xml:13:13-15:85
+102                android:name="com.google.firebase.components:com.google.firebase.abt.component.AbtRegistrar"
+102-->[com.google.firebase:firebase-abt:21.0.1] /Users/blockmayictsolutionlimited/.gradle/caches/transforms-3/c12430a93ad5689c522cc9375a5c5135/transformed/jetified-firebase-abt-21.0.1/AndroidManifest.xml:14:17-109
+103                android:value="com.google.firebase.components.ComponentRegistrar" />
+103-->[com.google.firebase:firebase-abt:21.0.1] /Users/blockmayictsolutionlimited/.gradle/caches/transforms-3/c12430a93ad5689c522cc9375a5c5135/transformed/jetified-firebase-abt-21.0.1/AndroidManifest.xml:15:17-82
+104        </service>
+105
+106        <receiver
+106-->[com.google.firebase:firebase-messaging:23.0.5] /Users/blockmayictsolutionlimited/.gradle/caches/transforms-3/f977bc2da3842ba281814c8c116f943d/transformed/jetified-firebase-messaging-23.0.5/AndroidManifest.xml:31:9-38:20
+107            android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
+107-->[com.google.firebase:firebase-messaging:23.0.5] /Users/blockmayictsolutionlimited/.gradle/caches/transforms-3/f977bc2da3842ba281814c8c116f943d/transformed/jetified-firebase-messaging-23.0.5/AndroidManifest.xml:32:13-78
+108            android:exported="true"
+108-->[com.google.firebase:firebase-messaging:23.0.5] /Users/blockmayictsolutionlimited/.gradle/caches/transforms-3/f977bc2da3842ba281814c8c116f943d/transformed/jetified-firebase-messaging-23.0.5/AndroidManifest.xml:33:13-36
+109            android:permission="com.google.android.c2dm.permission.SEND" >
+109-->[com.google.firebase:firebase-messaging:23.0.5] /Users/blockmayictsolutionlimited/.gradle/caches/transforms-3/f977bc2da3842ba281814c8c116f943d/transformed/jetified-firebase-messaging-23.0.5/AndroidManifest.xml:34:13-73
+110            <intent-filter>
+110-->[com.google.firebase:firebase-messaging:23.0.5] /Users/blockmayictsolutionlimited/.gradle/caches/transforms-3/f977bc2da3842ba281814c8c116f943d/transformed/jetified-firebase-messaging-23.0.5/AndroidManifest.xml:35:13-37:29
+111                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+111-->[com.google.firebase:firebase-messaging:23.0.5] /Users/blockmayictsolutionlimited/.gradle/caches/transforms-3/f977bc2da3842ba281814c8c116f943d/transformed/jetified-firebase-messaging-23.0.5/AndroidManifest.xml:36:17-81
+111-->[com.google.firebase:firebase-messaging:23.0.5] /Users/blockmayictsolutionlimited/.gradle/caches/transforms-3/f977bc2da3842ba281814c8c116f943d/transformed/jetified-firebase-messaging-23.0.5/AndroidManifest.xml:36:25-78
+112            </intent-filter>
+113        </receiver>
+114        <!--
+115             FirebaseMessagingService performs security checks at runtime,
+116             but set to not exported to explicitly avoid allowing another app to call it.
+117        -->
+118        <service
+118-->[com.google.firebase:firebase-messaging:23.0.5] /Users/blockmayictsolutionlimited/.gradle/caches/transforms-3/f977bc2da3842ba281814c8c116f943d/transformed/jetified-firebase-messaging-23.0.5/AndroidManifest.xml:44:9-51:19
+119            android:name="com.google.firebase.messaging.FirebaseMessagingService"
+119-->[com.google.firebase:firebase-messaging:23.0.5] /Users/blockmayictsolutionlimited/.gradle/caches/transforms-3/f977bc2da3842ba281814c8c116f943d/transformed/jetified-firebase-messaging-23.0.5/AndroidManifest.xml:45:13-82
+120            android:directBootAware="true"
+120-->[com.google.firebase:firebase-messaging:23.0.5] /Users/blockmayictsolutionlimited/.gradle/caches/transforms-3/f977bc2da3842ba281814c8c116f943d/transformed/jetified-firebase-messaging-23.0.5/AndroidManifest.xml:46:13-43
+121            android:exported="false" >
+121-->[com.google.firebase:firebase-messaging:23.0.5] /Users/blockmayictsolutionlimited/.gradle/caches/transforms-3/f977bc2da3842ba281814c8c116f943d/transformed/jetified-firebase-messaging-23.0.5/AndroidManifest.xml:47:13-37
+122            <intent-filter android:priority="-500" >
+122-->/Users/blockmayictsolutionlimited/AndroidStudioProjects/Zugavalize/app/src/main/AndroidManifest.xml:56:13-58:29
+123                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+123-->/Users/blockmayictsolutionlimited/AndroidStudioProjects/Zugavalize/app/src/main/AndroidManifest.xml:57:17-78
+123-->/Users/blockmayictsolutionlimited/AndroidStudioProjects/Zugavalize/app/src/main/AndroidManifest.xml:57:25-75
+124            </intent-filter>
+125        </service>
+126
+127        <receiver
+127-->[com.google.android.gms:play-services-measurement:16.5.0] /Users/blockmayictsolutionlimited/.gradle/caches/transforms-3/82ae4574f8da7e0d74f4707bbbad3c29/transformed/jetified-play-services-measurement-16.5.0/AndroidManifest.xml:29:9-33:20
+128            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
+128-->[com.google.android.gms:play-services-measurement:16.5.0] /Users/blockmayictsolutionlimited/.gradle/caches/transforms-3/82ae4574f8da7e0d74f4707bbbad3c29/transformed/jetified-play-services-measurement-16.5.0/AndroidManifest.xml:30:13-85
+129            android:enabled="true"
+129-->[com.google.android.gms:play-services-measurement:16.5.0] /Users/blockmayictsolutionlimited/.gradle/caches/transforms-3/82ae4574f8da7e0d74f4707bbbad3c29/transformed/jetified-play-services-measurement-16.5.0/AndroidManifest.xml:31:13-35
+130            android:exported="false" >
+130-->[com.google.android.gms:play-services-measurement:16.5.0] /Users/blockmayictsolutionlimited/.gradle/caches/transforms-3/82ae4574f8da7e0d74f4707bbbad3c29/transformed/jetified-play-services-measurement-16.5.0/AndroidManifest.xml:32:13-37
+131        </receiver>
+132        <receiver
+132-->[com.google.android.gms:play-services-measurement:16.5.0] /Users/blockmayictsolutionlimited/.gradle/caches/transforms-3/82ae4574f8da7e0d74f4707bbbad3c29/transformed/jetified-play-services-measurement-16.5.0/AndroidManifest.xml:34:9-42:20
+133            android:name="com.google.android.gms.measurement.AppMeasurementInstallReferrerReceiver"
+133-->[com.google.android.gms:play-services-measurement:16.5.0] /Users/blockmayictsolutionlimited/.gradle/caches/transforms-3/82ae4574f8da7e0d74f4707bbbad3c29/transformed/jetified-play-services-measurement-16.5.0/AndroidManifest.xml:35:13-100
+134            android:enabled="true"
+134-->[com.google.android.gms:play-services-measurement:16.5.0] /Users/blockmayictsolutionlimited/.gradle/caches/transforms-3/82ae4574f8da7e0d74f4707bbbad3c29/transformed/jetified-play-services-measurement-16.5.0/AndroidManifest.xml:36:13-35
+135            android:exported="true"
+135-->[com.google.android.gms:play-services-measurement:16.5.0] /Users/blockmayictsolutionlimited/.gradle/caches/transforms-3/82ae4574f8da7e0d74f4707bbbad3c29/transformed/jetified-play-services-measurement-16.5.0/AndroidManifest.xml:37:13-36
+136            android:permission="android.permission.INSTALL_PACKAGES" >
+136-->[com.google.android.gms:play-services-measurement:16.5.0] /Users/blockmayictsolutionlimited/.gradle/caches/transforms-3/82ae4574f8da7e0d74f4707bbbad3c29/transformed/jetified-play-services-measurement-16.5.0/AndroidManifest.xml:38:13-69
+137            <intent-filter>
+137-->[com.google.android.gms:play-services-measurement:16.5.0] /Users/blockmayictsolutionlimited/.gradle/caches/transforms-3/82ae4574f8da7e0d74f4707bbbad3c29/transformed/jetified-play-services-measurement-16.5.0/AndroidManifest.xml:39:13-41:29
+138                <action android:name="com.android.vending.INSTALL_REFERRER" />
+138-->[com.google.android.gms:play-services-measurement:16.5.0] /Users/blockmayictsolutionlimited/.gradle/caches/transforms-3/82ae4574f8da7e0d74f4707bbbad3c29/transformed/jetified-play-services-measurement-16.5.0/AndroidManifest.xml:40:17-79
+138-->[com.google.android.gms:play-services-measurement:16.5.0] /Users/blockmayictsolutionlimited/.gradle/caches/transforms-3/82ae4574f8da7e0d74f4707bbbad3c29/transformed/jetified-play-services-measurement-16.5.0/AndroidManifest.xml:40:25-76
+139            </intent-filter>
+140        </receiver>
+141
+142        <service
+142-->[com.google.android.gms:play-services-measurement:16.5.0] /Users/blockmayictsolutionlimited/.gradle/caches/transforms-3/82ae4574f8da7e0d74f4707bbbad3c29/transformed/jetified-play-services-measurement-16.5.0/AndroidManifest.xml:44:9-47:40
+143            android:name="com.google.android.gms.measurement.AppMeasurementService"
+143-->[com.google.android.gms:play-services-measurement:16.5.0] /Users/blockmayictsolutionlimited/.gradle/caches/transforms-3/82ae4574f8da7e0d74f4707bbbad3c29/transformed/jetified-play-services-measurement-16.5.0/AndroidManifest.xml:45:13-84
+144            android:enabled="true"
+144-->[com.google.android.gms:play-services-measurement:16.5.0] /Users/blockmayictsolutionlimited/.gradle/caches/transforms-3/82ae4574f8da7e0d74f4707bbbad3c29/transformed/jetified-play-services-measurement-16.5.0/AndroidManifest.xml:46:13-35
+145            android:exported="false" />
+145-->[com.google.android.gms:play-services-measurement:16.5.0] /Users/blockmayictsolutionlimited/.gradle/caches/transforms-3/82ae4574f8da7e0d74f4707bbbad3c29/transformed/jetified-play-services-measurement-16.5.0/AndroidManifest.xml:47:13-37
+146        <service
+146-->[com.google.android.gms:play-services-measurement:16.5.0] /Users/blockmayictsolutionlimited/.gradle/caches/transforms-3/82ae4574f8da7e0d74f4707bbbad3c29/transformed/jetified-play-services-measurement-16.5.0/AndroidManifest.xml:48:9-52:72
+147            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
+147-->[com.google.android.gms:play-services-measurement:16.5.0] /Users/blockmayictsolutionlimited/.gradle/caches/transforms-3/82ae4574f8da7e0d74f4707bbbad3c29/transformed/jetified-play-services-measurement-16.5.0/AndroidManifest.xml:49:13-87
+148            android:enabled="true"
+148-->[com.google.android.gms:play-services-measurement:16.5.0] /Users/blockmayictsolutionlimited/.gradle/caches/transforms-3/82ae4574f8da7e0d74f4707bbbad3c29/transformed/jetified-play-services-measurement-16.5.0/AndroidManifest.xml:50:13-35
+149            android:exported="false"
+149-->[com.google.android.gms:play-services-measurement:16.5.0] /Users/blockmayictsolutionlimited/.gradle/caches/transforms-3/82ae4574f8da7e0d74f4707bbbad3c29/transformed/jetified-play-services-measurement-16.5.0/AndroidManifest.xml:51:13-37
+150            android:permission="android.permission.BIND_JOB_SERVICE" />
+150-->[com.google.android.gms:play-services-measurement:16.5.0] /Users/blockmayictsolutionlimited/.gradle/caches/transforms-3/82ae4574f8da7e0d74f4707bbbad3c29/transformed/jetified-play-services-measurement-16.5.0/AndroidManifest.xml:52:13-69
+151
+152        <activity
+152-->[com.google.android.gms:play-services-base:16.1.0] /Users/blockmayictsolutionlimited/.gradle/caches/transforms-3/36f809478526bd630e228734ae7e6dd3/transformed/jetified-play-services-base-16.1.0/AndroidManifest.xml:23:9-26:75
+153            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+153-->[com.google.android.gms:play-services-base:16.1.0] /Users/blockmayictsolutionlimited/.gradle/caches/transforms-3/36f809478526bd630e228734ae7e6dd3/transformed/jetified-play-services-base-16.1.0/AndroidManifest.xml:24:13-79
+154            android:exported="false"
+154-->[com.google.android.gms:play-services-base:16.1.0] /Users/blockmayictsolutionlimited/.gradle/caches/transforms-3/36f809478526bd630e228734ae7e6dd3/transformed/jetified-play-services-base-16.1.0/AndroidManifest.xml:25:13-37
+155            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+155-->[com.google.android.gms:play-services-base:16.1.0] /Users/blockmayictsolutionlimited/.gradle/caches/transforms-3/36f809478526bd630e228734ae7e6dd3/transformed/jetified-play-services-base-16.1.0/AndroidManifest.xml:26:13-72
+156
+157        <provider
+157-->[com.google.firebase:firebase-common:20.1.1] /Users/blockmayictsolutionlimited/.gradle/caches/transforms-3/7319f1e5d58369b0663c8fd201c30e4f/transformed/jetified-firebase-common-20.1.1/AndroidManifest.xml:26:9-31:39
+158            android:name="com.google.firebase.provider.FirebaseInitProvider"
+158-->[com.google.firebase:firebase-common:20.1.1] /Users/blockmayictsolutionlimited/.gradle/caches/transforms-3/7319f1e5d58369b0663c8fd201c30e4f/transformed/jetified-firebase-common-20.1.1/AndroidManifest.xml:27:13-77
+159            android:authorities="com.zugavalize.app.firebaseinitprovider"
+159-->[com.google.firebase:firebase-common:20.1.1] /Users/blockmayictsolutionlimited/.gradle/caches/transforms-3/7319f1e5d58369b0663c8fd201c30e4f/transformed/jetified-firebase-common-20.1.1/AndroidManifest.xml:28:13-72
+160            android:directBootAware="true"
+160-->[com.google.firebase:firebase-common:20.1.1] /Users/blockmayictsolutionlimited/.gradle/caches/transforms-3/7319f1e5d58369b0663c8fd201c30e4f/transformed/jetified-firebase-common-20.1.1/AndroidManifest.xml:29:13-43
+161            android:exported="false"
+161-->[com.google.firebase:firebase-common:20.1.1] /Users/blockmayictsolutionlimited/.gradle/caches/transforms-3/7319f1e5d58369b0663c8fd201c30e4f/transformed/jetified-firebase-common-20.1.1/AndroidManifest.xml:30:13-37
+162            android:initOrder="100" />
+162-->[com.google.firebase:firebase-common:20.1.1] /Users/blockmayictsolutionlimited/.gradle/caches/transforms-3/7319f1e5d58369b0663c8fd201c30e4f/transformed/jetified-firebase-common-20.1.1/AndroidManifest.xml:31:13-36
+163
+164        <meta-data
+164-->[com.google.android.gms:play-services-basement:16.2.0] /Users/blockmayictsolutionlimited/.gradle/caches/transforms-3/6f76fb28775870813e9ecf61dbc3260f/transformed/jetified-play-services-basement-16.2.0/AndroidManifest.xml:23:9-25:69
+165            android:name="com.google.android.gms.version"
+165-->[com.google.android.gms:play-services-basement:16.2.0] /Users/blockmayictsolutionlimited/.gradle/caches/transforms-3/6f76fb28775870813e9ecf61dbc3260f/transformed/jetified-play-services-basement-16.2.0/AndroidManifest.xml:24:13-58
+166            android:value="@integer/google_play_services_version" />
+166-->[com.google.android.gms:play-services-basement:16.2.0] /Users/blockmayictsolutionlimited/.gradle/caches/transforms-3/6f76fb28775870813e9ecf61dbc3260f/transformed/jetified-play-services-basement-16.2.0/AndroidManifest.xml:25:13-66
+167
+168        <service
+168-->[com.google.android.datatransport:transport-backend-cct:3.1.5] /Users/blockmayictsolutionlimited/.gradle/caches/transforms-3/f11fe9dabe471697d0083cecaf23da60/transformed/jetified-transport-backend-cct-3.1.5/AndroidManifest.xml:29:9-35:19
+169            android:name="com.google.android.datatransport.runtime.backends.TransportBackendDiscovery"
+169-->[com.google.android.datatransport:transport-backend-cct:3.1.5] /Users/blockmayictsolutionlimited/.gradle/caches/transforms-3/f11fe9dabe471697d0083cecaf23da60/transformed/jetified-transport-backend-cct-3.1.5/AndroidManifest.xml:30:13-103
+170            android:exported="false" >
+170-->[com.google.android.datatransport:transport-backend-cct:3.1.5] /Users/blockmayictsolutionlimited/.gradle/caches/transforms-3/f11fe9dabe471697d0083cecaf23da60/transformed/jetified-transport-backend-cct-3.1.5/AndroidManifest.xml:31:13-37
+171            <meta-data
+171-->[com.google.android.datatransport:transport-backend-cct:3.1.5] /Users/blockmayictsolutionlimited/.gradle/caches/transforms-3/f11fe9dabe471697d0083cecaf23da60/transformed/jetified-transport-backend-cct-3.1.5/AndroidManifest.xml:32:13-34:39
+172                android:name="backend:com.google.android.datatransport.cct.CctBackendFactory"
+172-->[com.google.android.datatransport:transport-backend-cct:3.1.5] /Users/blockmayictsolutionlimited/.gradle/caches/transforms-3/f11fe9dabe471697d0083cecaf23da60/transformed/jetified-transport-backend-cct-3.1.5/AndroidManifest.xml:33:17-94
+173                android:value="cct" />
+173-->[com.google.android.datatransport:transport-backend-cct:3.1.5] /Users/blockmayictsolutionlimited/.gradle/caches/transforms-3/f11fe9dabe471697d0083cecaf23da60/transformed/jetified-transport-backend-cct-3.1.5/AndroidManifest.xml:34:17-36
+174        </service>
+175        <service
+175-->[com.google.android.datatransport:transport-runtime:3.1.5] /Users/blockmayictsolutionlimited/.gradle/caches/transforms-3/0cc3fa8ac2baeeeb28885c1bc76f99b0/transformed/jetified-transport-runtime-3.1.5/AndroidManifest.xml:26:9-30:19
+176            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService"
+176-->[com.google.android.datatransport:transport-runtime:3.1.5] /Users/blockmayictsolutionlimited/.gradle/caches/transforms-3/0cc3fa8ac2baeeeb28885c1bc76f99b0/transformed/jetified-transport-runtime-3.1.5/AndroidManifest.xml:27:13-117
+177            android:exported="false"
+177-->[com.google.android.datatransport:transport-runtime:3.1.5] /Users/blockmayictsolutionlimited/.gradle/caches/transforms-3/0cc3fa8ac2baeeeb28885c1bc76f99b0/transformed/jetified-transport-runtime-3.1.5/AndroidManifest.xml:28:13-37
+178            android:permission="android.permission.BIND_JOB_SERVICE" >
+178-->[com.google.android.datatransport:transport-runtime:3.1.5] /Users/blockmayictsolutionlimited/.gradle/caches/transforms-3/0cc3fa8ac2baeeeb28885c1bc76f99b0/transformed/jetified-transport-runtime-3.1.5/AndroidManifest.xml:29:13-69
+179        </service>
+180
+181        <receiver
+181-->[com.google.android.datatransport:transport-runtime:3.1.5] /Users/blockmayictsolutionlimited/.gradle/caches/transforms-3/0cc3fa8ac2baeeeb28885c1bc76f99b0/transformed/jetified-transport-runtime-3.1.5/AndroidManifest.xml:32:9-34:40
+182            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver"
+182-->[com.google.android.datatransport:transport-runtime:3.1.5] /Users/blockmayictsolutionlimited/.gradle/caches/transforms-3/0cc3fa8ac2baeeeb28885c1bc76f99b0/transformed/jetified-transport-runtime-3.1.5/AndroidManifest.xml:33:13-132
+183            android:exported="false" />
+183-->[com.google.android.datatransport:transport-runtime:3.1.5] /Users/blockmayictsolutionlimited/.gradle/caches/transforms-3/0cc3fa8ac2baeeeb28885c1bc76f99b0/transformed/jetified-transport-runtime-3.1.5/AndroidManifest.xml:34:13-37
+184
+185        <provider
+185-->[androidx.emoji2:emoji2:1.0.0] /Users/blockmayictsolutionlimited/.gradle/caches/transforms-3/b17aad778eb624251793dce4fd112fa6/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:26:9-34:20
+186            android:name="androidx.startup.InitializationProvider"
+186-->[androidx.emoji2:emoji2:1.0.0] /Users/blockmayictsolutionlimited/.gradle/caches/transforms-3/b17aad778eb624251793dce4fd112fa6/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:27:13-67
+187            android:authorities="com.zugavalize.app.androidx-startup"
+187-->[androidx.emoji2:emoji2:1.0.0] /Users/blockmayictsolutionlimited/.gradle/caches/transforms-3/b17aad778eb624251793dce4fd112fa6/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:28:13-68
+188            android:exported="false" >
+188-->[androidx.emoji2:emoji2:1.0.0] /Users/blockmayictsolutionlimited/.gradle/caches/transforms-3/b17aad778eb624251793dce4fd112fa6/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:29:13-37
+189            <meta-data
+189-->[androidx.emoji2:emoji2:1.0.0] /Users/blockmayictsolutionlimited/.gradle/caches/transforms-3/b17aad778eb624251793dce4fd112fa6/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:31:13-33:52
+190                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+190-->[androidx.emoji2:emoji2:1.0.0] /Users/blockmayictsolutionlimited/.gradle/caches/transforms-3/b17aad778eb624251793dce4fd112fa6/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:32:17-75
+191                android:value="androidx.startup" />
+191-->[androidx.emoji2:emoji2:1.0.0] /Users/blockmayictsolutionlimited/.gradle/caches/transforms-3/b17aad778eb624251793dce4fd112fa6/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:33:17-49
+192            <meta-data
+192-->[androidx.lifecycle:lifecycle-process:2.4.0] /Users/blockmayictsolutionlimited/.gradle/caches/transforms-3/b567207730ca4a822e30e105bb8c79b5/transformed/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:31:13-33:52
+193                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+193-->[androidx.lifecycle:lifecycle-process:2.4.0] /Users/blockmayictsolutionlimited/.gradle/caches/transforms-3/b567207730ca4a822e30e105bb8c79b5/transformed/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:32:17-78
+194                android:value="androidx.startup" />
+194-->[androidx.lifecycle:lifecycle-process:2.4.0] /Users/blockmayictsolutionlimited/.gradle/caches/transforms-3/b567207730ca4a822e30e105bb8c79b5/transformed/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:33:17-49
+195        </provider>
+196    </application>
+197
+198</manifest>

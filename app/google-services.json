@@ -1,0 +1,46 @@
+{
+  "project_info": {
+    "project_number": "241332621500",
+    "project_id": "hdigc-e1cac",
+    "storage_bucket": "hdigc-e1cac.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:241332621500:android:d329b9fbc13ecd7bd640b9",
+        "android_client_info": {
+          "package_name": "com.zugavalize.app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "241332621500-m5p9fb8ki08h85dkghdhsrn178i0qmlv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCHCeQud-1Q2D5RL5n-iwPs1P0uruLoBAE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "241332621500-m5p9fb8ki08h85dkghdhsrn178i0qmlv.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "241332621500-q6rkhhpkm95h5l978de05pht18a8vhpl.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.Howdoigrowcannabis.ios"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,22 @@
+<component name="libraryTable">
+  <library name="Gradle: com.google.android.gms:play-services-basement:16.2.0@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/4be6f95459cd9e425897d98f54a30b4d/transformed/jetified-play-services-basement-16.2.0/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/4be6f95459cd9e425897d98f54a30b4d/transformed/jetified-play-services-basement-16.2.0/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/4be6f95459cd9e425897d98f54a30b4d/transformed/jetified-play-services-basement-16.2.0/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/6f76fb28775870813e9ecf61dbc3260f/transformed/jetified-play-services-basement-16.2.0/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/6f76fb28775870813e9ecf61dbc3260f/transformed/jetified-play-services-basement-16.2.0/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/6f76fb28775870813e9ecf61dbc3260f/transformed/jetified-play-services-basement-16.2.0/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/1d156f11152dc037efa85643f5eeaa91/transformed/jetified-play-services-basement-16.2.0/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/1d156f11152dc037efa85643f5eeaa91/transformed/jetified-play-services-basement-16.2.0/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/1d156f11152dc037efa85643f5eeaa91/transformed/jetified-play-services-basement-16.2.0/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/630098ef58803388dd3b45e447cc5926/transformed/jetified-play-services-basement-16.2.0/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/630098ef58803388dd3b45e447cc5926/transformed/jetified-play-services-basement-16.2.0/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/630098ef58803388dd3b45e447cc5926/transformed/jetified-play-services-basement-16.2.0/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.android.gms/play-services-basement/16.2.0/3e3589bff6719404b47afecaa49d192cfa3f5791/play-services-basement-16.2.0-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES />
+  </library>
+</component>
